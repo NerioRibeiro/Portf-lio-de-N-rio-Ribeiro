@@ -1,0 +1,212 @@
+/* Estilos básicos */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background: hsl(203, 58%, 63%);
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+header {
+  text-align: center;
+  background: #3333337d;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  background: hsl(203, 58%, 63%);
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background: #3333337d;
+  border-radius: 5px;
+}
+
+/* Estilo geral para seções */
+section {
+  margin: 20px 0;
+}
+
+section > div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+section div.projeto {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  width: 80%;
+}
+
+.projeto img {
+  max-width: 30%;
+  height: auto;
+}
+
+.projeto h3,
+.projeto p,
+.projeto a {
+  flex: 1;
+  margin: 0 10px;
+}
+
+/* Não centralizar seções "Contato" e "Sobre" */
+#contato,
+#sobre {
+  text-align: left;
+  margin: 20px 0;
+}
+
+#contato div,
+#sobre div {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Separação entre as divs */
+#hobbies-skills,
+#formacoes-cursos,
+#experiencia-programacao {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+}
+
+/* Nome da seção embaixo da div */
+#hobbies-skills::after,
+#formacoes-cursos::after,
+#experiencia-programacao::after {
+  content: attr(id);
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* Link do projeto */
+.projeto a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.projeto a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 10px;
+  background: #3333337d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background: #555;
+}
+
+footer {
+  text-align: center;
+  background: #3333337d;
+  color: #fff;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+/*footer {
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}*/
+
+.btn-curriculo {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.btn-curriculo:hover {
+  background-color: #0056b3;
+}
+
+.projeto {
+  margin: 20px 0;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio de Nério Ribeiro</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <!-- Menu Principal -->
+    <nav>
+      <ul>
+        <li><a href="#sobre-mim">Sobre Mim</a></li>
+        <li><a href="#hobbies-skills">Hobbies e Soft Skills</a></li>
+        <li><a href="#formacoes-cursos">Formações e Cursos</a></li>
+        <li>
+          <a href="#experiencia-programacao">Experiência em Programação</a>
+        </li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <!-- Seção de Apresentação -->
+    <header>
+      <h1>Bem-vindo ao Portfólio de Nério Ribeiro</h1>
+      <img src="imagens/developer.jpg" alt="Imagem de Perfil" />
+      <p>Nome: Nério Ribeiro | Idade: 36 anos | Nacionalidade: Brasileiro</p>
+      <p>Biografia: Desenvolvedor front-end em constante aprendizado.</p>
+      <a
+        href="curriculo/Nério Ribeiro Da Costa - Curso HTML e CSS_ Classes, posicionamento e Flexbox - Alura.pdf"
+        class="btn-curriculo"
+        target="_blank"
+        >Visualizar Currículo</a
+      >
+    </header>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre-mim">
+      <h2>Sobre Mim</h2>
+      <p>
+        Sou desenvolvedor front-end com experiência em criação de websites,
+        aplicações interativas e sites responsivos. Apaixonado por tecnologia,
+        busco sempre melhorar minhas habilidades e acompanhar as tendências da
+        área.
+      </p>
+    </section>
+
+    <!-- Seção Hobbies e Soft Skills -->
+    <section id="hobbies-skills">
+      <h2>Hobbies e Soft Skills</h2>
+      <ul>
+        <li>
+          Hobbies: Leitura, Jogos,
+          Programação
+        </li>
+        <li>Soft Skills: java, html, css, javascript</li>
+      </ul>
+    </section>
+
+    <!-- Seção Formações + Cursos -->
+    <section id="formacoes-cursos">
+      <h2>Formações e Cursos</h2>
+      <ul>
+        <li>Curso de Front-End - Alura</li>
+        <li>Curso de JavaScript - Alura</li>
+        <li>Formação em Repositório de Mercearia</li>
+      </ul>
+    </section>
+
+    <!-- Seção Experiência em Programação -->
+    <section id="experiencia-programacao">
+      <h2>Experiência em Programação</h2>
+      <div class="projeto">
+        <img src="imagens/imagem__da__garota_de_joelho.png" alt="Projeto 1" />
+        <h3>Projeto de Criptografia de Texto</h3>
+        <p>
+          Uma site para criptografar e descriptografar mensagens utilizando
+          JavaScript.
+        </p>
+        <a href="https://github.com/NerioRibeiro/Codificador" target="_blank"
+          >Repositório no GitHub</a
+        >
+      </div>
+
+  <!-- Projeto 2 -->
+  <div class="projeto">
+    <img src="imagens/foto de nerio.jpeg" alt="Projeto 2"/>
+    <h3>Projeto portifolio-alura</h3>
+      <p>
+        Você criou um portfólio pessoal que destaca suas experiências e fornece uma visão completa sobre você. No portfólio, você organizou suas habilidades e projetos de maneira clara, facilitando a navegação e a visualização de seus pontos fortes.
+      </p>
+      <a href="https://github.com/NerioRibeiro/portifolio-alura/blob/main/index.html" target="_blank">Repositório no GitHub</a>
+  </div>
+
+  <!-- Projeto 3 -->
+  <div class="projeto">
+    <img src="imagens/Capturarcomando.PNG" alt="Projeto 3" />
+      <h3>Site leitura-de-comando</h3>
+      <p>
+        O site Leitura de Comando, oferece uma experiência interativa onde o usuário lê um comando ou frase, e a partir disso, um desenho correspondente aparece na tela.
+      </p>
+      <a href="https://github.com/NerioRibeiro/leitura-de-comando" target="_blank">Repositório no GitHub</a>
+  </div>
+</section>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contato">
+      <h2>Contato</h2>
+      <form id="contato-form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required maxlength="50" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="assunto">Assunto:</label>
+        <input
+          type="text"
+          id="assunto"
+          name="assunto"
+          required
+          maxlength="50"
+        />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea
+          id="mensagem"
+          name="mensagem"
+          required
+          maxlength="300"
+        ></textarea>
+
+        <!-- Botão de enviar -->
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+      <p>&copy; 2024 Nério Ribeiro</p>
+    </footer>
+  </body>
+</html>
